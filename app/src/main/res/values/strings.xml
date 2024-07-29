@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">HOME</string>
+    <string name="About_us">About Us</string>
+    <string name="welcome_to_n_n_layers_bakeshop_n_n_like_a_fantasy_that_feels_unreal_every_delicacy_by_layers_holds_a_charm_that_enchants_with_every_bite_allowing_one_to_be_swept_into_a_moment_of_bliss_making_all_your_dessert_creams_come_true_founded_in_lahore_in_2020_the_philosophy_of_layers_bakeshop_was_simple_to_create_connections_through_desserts_while_striking_the_ideal_balance_between_flavor_and_feeling_since_the_beginning_layers_has_secured_an_irreplaceable_spot_in_the_hearts_of_people">------ WELCOME TO\n\n Layers Bakeshop\n\n Like a fantasy that feels unreal, every delicacy by ‘Layers’ holds a charm that enchants with every bite, allowing one to be swept into a moment of bliss, making all your dessert creams come true! Founded in Lahore in 2020, the philosophy of Layers Bakeshop was simple; to create\n connections through desserts while striking the ideal balance between flavor and feeling. Since the beginning, Layers has secured an irreplaceable spot in the hearts of people.</string>
+    <string name="layers_baker">layers Baker</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="like_a_fantasy_that_feels_unreal_every_delicacy_by_layers_holds_a_charm_that_enchants_with_every_bite_allowing_one_to_be_swept_into_a_moment_of_bliss_making_all_your_dessert_dreams_come_true_10_10_founded_in_lahore_in_2020_the_philosophy_of_layers_bakeshop_was_simple_to_create_connections_through_desserts_while_striking_the_ideal_balance_between_flavor_and_feeling_10_10_since_the_beginning_layers_has_secured_an_irreplaceable_spot_in_the_hearts_of_people">Like a fantasy that feels unreal, every delicacy by ‘Layers’ holds a charm that enchants with every bite,allowing one to be swept into a moment of bliss, making all your dessert dreams come true!\n\nFounded in Lahore in 2020, the philosophy of \nLayers Bakeshop was simple; to create \nconnections through desserts while striking the ideal balance between flavor and feeling.\n\nSince the beginning, Layers has secured an irreplaceable spot in the hearts of people.</string>
+    <string name="being_the_quintessential_representation_of_aesthetics_and_taste_a_layers_dessert_is_consumed_by_the_eyes_well_before_delighting_the_tastebuds_a_layers_dessert_sweeps_you_away_into_a_sweet_fantasy_where_your_wildest_dessert_dreams_are_realized_infused_with_decadent_magic_every_flavor_dances_on_the_palette_to_a_sweet_symphony">Being the quintessential representation of aesthetics and taste, a Layers dessert is consumed by the eyes well before delighting the tastebuds!\n\n A Layers dessert sweeps you away into a sweet fantasy, where your wildest dessert dreams are realized. Infused with decadent magic, every flavor dances on the palette to a sweet symphony.</string>
+    <string name="layers_bakesh_wide_variety_of_delicious_cakesp">Layers Bakesh Wide Variety of Delicious Cakesp</string>
+    <string name="introducing_our">INTRODUCING OUR</string>
+    <string name="best_dessert_in_n_town">BEST DESSERT IN \n TOWN</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="Join">Join </string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="youtube">YouTube</string>
+
+
+</resources>

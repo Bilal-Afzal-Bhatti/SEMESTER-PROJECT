@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_Fragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/first_image"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="TODO"
+                android:src="@drawable/one_image" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/first_image"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lobster_regular"
+                android:text="Milk Cake"
+                android:textColor="#331C21"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="61dp"
+                android:text="Vanilla sponge cake in three kinds of milk; whole milk, evaporated milk, and condensed milk!"
+                android:textColor="#F8007C"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/rs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="18dp"
+                android:text="Rs 2,100"
+                android:textColor="#1E872B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/minus"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/text_view"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="7dp"
+                android:text="0"
+                android:textColor="#EC9494"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/plus"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/text_view"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/add_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="12dp"
+                android:backgroundTint="#FF2C2C"
+                android:text="Add To Cart" />
+
+            <!-- Second Item -->
+            <ImageView
+                android:id="@+id/second_image"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_below="@+id/add_cart"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="TODO"
+                android:src="@drawable/lotus_cake" />
+
+            <TextView
+                android:id="@+id/name_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/second_image"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lobster_regular"
+                android:text="Lotus Cake"
+                android:textColor="#331C21"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_one"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="61dp"
+                android:text="Lotus biscoff spread with cream cheese on a fliffy vanilla sponge and crushed lotus biscuits on top"
+                android:textColor="#F8007C"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/rs_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_View"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="18dp"
+                android:text="Rs 2,100"
+                android:textColor="#1E872B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/minus_one"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/text_View"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/counters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_View"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="7dp"
+                android:text="0"
+                android:textColor="#EC9494"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/plus_ONE"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/text_View"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/add_carts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_View"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="12dp"
+                android:backgroundTint="#FF2C2C"
+                android:text="Add To Cart" />
+
+            <!-- Third Item -->
+            <ImageView
+                android:id="@+id/third_image"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_below="@+id/add_carts"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="TODO"
+                android:src="@drawable/redvelvet" />
+
+            <TextView
+                android:id="@+id/name_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/third_image"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lobster_regular"
+                android:text="Red Velvet Cake"
+                android:textColor="#331C21"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_view_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_two"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="61dp"
+                android:text="Creme cheese frosting on velvety soft red sponge."
+                android:textColor="#F8007C"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/rs_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_two"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="18dp"
+                android:text="Rs 2,100"
+                android:textColor="#1E872B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/minus_two"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/text_view_two"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/counter_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_two"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="7dp"
+                android:text="0"
+                android:textColor="#EC9494"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/plus_two"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/text_view_two"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/add_cart_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_two"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="12dp"
+                android:backgroundTint="#FF2C2C"
+                android:text="Add To Cart" />
+
+            <!-- Fourth Item -->
+            <ImageView
+                android:id="@+id/fourth_image"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_below="@+id/add_cart_two"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="TODO"
+                android:src="@drawable/kitkat_sqaure" />
+
+            <TextView
+                android:id="@+id/name_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fourth_image"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lobster_regular"
+                android:text="Kit Kat Cake"
+                android:textColor="#331C21"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_view_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_three"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="61dp"
+                android:text="Our best creamy milk chocolate with crunchy KitKat frosting on a velvety soft vanilla cake sponge."
+                android:textColor="#F8007C"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/rs_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_three"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="18dp"
+                android:text="Rs 2,100"
+                android:textColor="#1E872B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/minus_three"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/text_view_three"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/counter_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_three"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="7dp"
+                android:text="0"
+                android:textColor="#EC9494"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/plus_three"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/text_view_three"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/add_cart_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_three"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="12dp"
+                android:backgroundTint="#FF2C2C"
+                android:text="Add To Cart" />
+
+            <!-- Fifth Item -->
+            <ImageView
+                android:id="@+id/fifth_image"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_below="@+id/add_cart_three"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="TODO"
+                android:src="@drawable/nuts_cake" />
+
+            <TextView
+                android:id="@+id/name_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fifth_image"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lobster_regular"
+                android:text="Nuts Fusion Cake"
+                android:textColor="#331C21"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_view_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_four"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="61dp"
+                android:text="Traditional Carrot Cake Infused with Nutmeg, Cinnamon, Walnuts in the Sponge, Cashew Nut , Pistachio Chunks Spreadover the Soft Cream Cheese icing Layers"
+                android:textColor="#F8007C"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/rs_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_four"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="18dp"
+                android:text="Rs 2,100"
+                android:textColor="#1E872B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/minus_four"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/text_view_four"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/counter_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_four"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="7dp"
+                android:text="0"
+                android:textColor="#EC9494"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/plus_four"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/text_view_four"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/add_cart_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_four"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="12dp"
+                android:backgroundTint="#FF2C2C"
+                android:text="Add To Cart" />
+            <!-- Sixth Item -->
+            <ImageView
+                android:id="@+id/sixth_image"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_below="@+id/add_cart_four"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="TODO"
+                android:src="@drawable/nutellacake" />
+
+            <TextView
+                android:id="@+id/name_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sixth_image"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lobster_regular"
+                android:text="Nutella Cake"
+                android:textColor="#331C21"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_view_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_five"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="61dp"
+                android:text="Made from 100% nutella , imported cream!"
+                android:textColor="#F8007C"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/rs_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_five"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="18dp"
+                android:text="Rs 2,100"
+                android:textColor="#1E872B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/minus_five"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/text_view_five"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/counter_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_five"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="7dp"
+                android:text="0"
+                android:textColor="#EC9494"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/plus_five"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/text_view_five"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="18dp"
+                android:padding="2dp"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/add_cart_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_five"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="12dp"
+                android:backgroundTint="#FF2C2C"
+                android:text="Add To Cart" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

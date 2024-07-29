@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_alignParentTop="true"
+    android:background="#FFFFFF"
+    tools:context=".AFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ViewFlipper
+
+
+                android:id="@+id/viewFlipper"
+                android:layout_width="wrap_content"
+                android:layout_height="307dp"
+                android:layout_marginTop="5dp"
+                android:autoStart="true"
+                android:flipInterval="5000"
+                android:inAnimation="@android:anim/fade_in"
+                android:outAnimation="@android:anim/fade_out">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="291dp"
+
+                    android:src="@drawable/image_two" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="291dp"
+
+                    android:src="@drawable/image_three" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="291dp"
+
+                    android:src="@drawable/image_four" />
+
+            </ViewFlipper>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="#FFFFFF"
+                android:text="@string/welcome_to"
+                android:textAlignment="inherit"
+                android:textColor="#7373FA"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/spann"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="17dp"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/lobster_regular"
+                android:text="Layers Bakeshop"
+                android:textAlignment="inherit"
+                android:textColor="#8B4997"
+                android:textColorLink="@color/black"
+                android:textSize="35sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="17dp"
+                android:backgroundTint="#FFFFFF"
+                android:text="@string/like_a_fantasy_that_feels_unreal_every_delicacy_by_layers_holds_a_charm_that_enchants_with_every_bite_allowing_one_to_be_swept_into_a_moment_of_bliss_making_all_your_dessert_dreams_come_true_10_10_founded_in_lahore_in_2020_the_philosophy_of_layers_bakeshop_was_simple_to_create_connections_through_desserts_while_striking_the_ideal_balance_between_flavor_and_feeling_10_10_since_the_beginning_layers_has_secured_an_irreplaceable_spot_in_the_hearts_of_people"
+                android:textColor="#455A5C"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/image_back" />
+
+                <TextView
+                    android:id="@+id/text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/image_view"
+                    android:layout_alignBottom="@id/image_view"
+                    android:layout_marginVertical="55dp"
+                    android:layout_marginLeft="15dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:text="@string/introducing_our"
+                    android:textAlignment="inherit"
+                    android:textColor="#040419"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+
+                <TextView
+                    android:id="@+id/span"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="116dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:fontFamily="@font/lobster_regular"
+                    android:text="Wide Variety of Delicious Cakes"
+                    android:textAlignment="center"
+                    android:textColor="#27072C"
+                    android:textColorLink="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/span"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginEnd="61dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:text="@string/being_the_quintessential_representation_of_aesthetics_and_taste_a_layers_dessert_is_consumed_by_the_eyes_well_before_delighting_the_tastebuds_a_layers_dessert_sweeps_you_away_into_a_sweet_fantasy_where_your_wildest_dessert_dreams_are_realized_infused_with_decadent_magic_every_flavor_dances_on_the_palette_to_a_sweet_symphony"
+                    android:textColor="#455A5C"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <Button
+
+                    android:id="@+id/button"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/paragraph"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="290dp"
+                    android:backgroundTint="#C87979"
+                    android:text="LAYERS MENU"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="254dp"
+
+                android:background="#C53C94">
+
+                <TextView
+
+                    android:id="@+id/join_us_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/black"
+                    android:text="@string/Join"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/and"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/join_us_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:text="And "
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/social_media_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/and"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Follow us on social media"
+                    android:textSize="30sp" />
+
+
+                <ImageButton
+                    android:id="@+id/facebook_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/social_media_text"
+
+                    android:layout_marginLeft="145dp"
+                    android:layout_marginTop="24dp"
+
+                    android:contentDescription="@string/facebook"
+                    android:src="@drawable/icon_facebook" />
+
+                <ImageButton
+                    android:id="@+id/instagram_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/social_media_text"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_toRightOf="@id/facebook_button"
+
+                    android:contentDescription="@string/instagram"
+                    android:src="@drawable/icon_instagram" />
+
+                <ImageButton
+                    android:id="@+id/youtube_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/social_media_text"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_toRightOf="@id/instagram_button"
+
+                    android:contentDescription="@string/youtube"
+                    android:src="@drawable/icon_youtube" />
+
+
+                <Button
+                    android:id="@+id/my_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/social_media_text"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_toRightOf="@id/youtube_button"
+                    android:textSize="12sp"
+                    android:text="GERMAN LANGUAGE"
+                    android:paddingLeft="10dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

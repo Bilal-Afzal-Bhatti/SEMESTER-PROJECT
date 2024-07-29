@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="OpenDrawer">Navigation Drawer öffnen</string>
+    <string name="CloseDrawer">Navigation Drawer schließen</string>
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="Home">STARTSEITE</string>
+    <string name="About_us">Über uns</string>
+    <string name="welcome_to_n_n_layers_bakeshop_n_n_like_a_fantasy_that_feels_unreal_every_delicacy_by_layers_holds_a_charm_that_enchants_with_every_bite_allowing_one_to_be_swept_into_a_moment_of_bliss_making_all_your_dessert_creams_come_true_founded_in_lahore_in_2020_the_philosophy_of_layers_bakeshop_was_simple_to_create_connections_through_desserts_while_striking_the_ideal_balance_between_flavor_and_feeling_since_the_beginning_layers_has_secured_an_irreplaceable_spot_in_the_hearts_of_people">Willkommen bei Layers Bakeshop\n\nWie ein Märchen, das sich unreal anfühlt, hat jede Köstlichkeit von ‘Layers’ einen Charme, der mit jedem Bissen bezaubert und einen in einen Moment des Glücks entführt. Alle Ihre Dessertträume werden wahr! Gegründet in Lahore im Jahr 2020, war die Philosophie von Layers Bakeshop einfach: Verbindungen durch Desserts zu schaffen und dabei das ideale Gleichgewicht zwischen Geschmack und Gefühl zu finden. Seit jeher hat Layers einen unersetzlichen Platz in den Herzen der Menschen gesichert.</string>
+    <string name="layers_baker">Layers Bäcker</string>
+    <string name="welcome_to">WILLKOMMEN BEI</string>
+    <string name="like_a_fantasy_that_feels_unreal_every_delicacy_by_layers_holds_a_charm_that_enchants_with_every_bite_allowing_one_to_be_swept_into_a_moment_of_bliss_making_all_your_dessert_dreams_come_true_10_10_founded_in_lahore_in_2020_the_philosophy_of_layers_bakeshop_was_simple_to_create_connections_through_desserts_while_striking_the_ideal_balance_between_flavor_and_feeling_10_10_since_the_beginning_layers_has_secured_an_irreplaceable_spot_in_the_hearts_of_people">Wie ein Märchen, das sich unreal anfühlt, hat jede Köstlichkeit von ‘Layers’ einen Charme, der mit jedem Bissen bezaubert, und entführt einen in einen Moment des Glücks. Alle Ihre Dessertträume werden wahr!\n\nGegründet in Lahore im Jahr 2020, war die Philosophie von Layers Bakeshop einfach: Verbindungen durch Desserts zu schaffen und dabei das ideale Gleichgewicht zwischen Geschmack und Gefühl zu finden.\n\nSeit jeher hat Layers einen unersetzlichen Platz in den Herzen der Menschen gesichert.</string>
+    <string name="being_the_quintessential_representation_of_aesthetics_and_taste_a_layers_dessert_is_consumed_by_the_eyes_well_before_delighting_the_tastebuds_a_layers_dessert_sweeps_you_away_into_a_sweet_fantasy_where_your_wildest_dessert_dreams_are_realized_infused_with_decadent_magic_every_flavor_dances_on_the_palette_to_a_sweet_symphony">Als das Paradebeispiel für Ästhetik und Geschmack wird ein Layers-Dessert von den Augen konsumiert, bevor es den Gaumen erfreut!\n\nEin Layers-Dessert entführt Sie in ein süßes Märchen, in dem Ihre wildesten Dessertträume verwirklicht werden. Durchdrungen von dekadenter Magie tanzt jeder Geschmack auf dem Gaumen zu einer süßen Symphonie.</string>
+    <string name="layers_bakesh_wide_variety_of_delicious_cakesp">Layers Bakeshop bietet eine große Auswahl an köstlichen Kuchen</string>
+    <string name="introducing_our">UNSER</string>
+    <string name="best_dessert_in_n_town">BESTES DESSERT IN\nSTADT</string>
+    <string name="prompt_email">E-Mail</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="action_sign_in">Einloggen oder registrieren</string>
+    <string name="action_sign_in_short">Einloggen</string>
+    <string name="welcome">"Willkommen!"</string>
+    <string name="invalid_username">Ungültiger Benutzername</string>
+    <string name="invalid_password">Passwort muss mehr als 5 Zeichen enthalten</string>
+    <string name="login_failed">"Anmeldung fehlgeschlagen"</string>
+    <string name="Join">Beitreten</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="youtube">YouTube</string>
+
+</resources>
